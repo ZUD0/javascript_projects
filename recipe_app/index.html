@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+
+  <body>
+    <div class="mobile-container">
+      <header class="mobile-header">
+        <form type="submit">
+          <input id="search-input" type="text" placeholder="Search">
+          <button id="search">Search</button>
+        </form>
+      </header>
+      <div class="fav-container">
+        <h3>Favorite Meals</h3>
+        <ul class="fav-meal-container">
+          <li class="fav-list fav-list-1"></li>
+          <li class="fav-list fav-list-2"></li>
+          <li class="fav-list fav-list-3"></li>
+        </ul>
+      </div>
+      <div class="meals">
+        <span class="random">Random Recipe</span>
+        <div class="meal">
+          <div class="meal-header"></div>
+          <div class="meal-body">
+            <h5 id="random-mealName"></h5>
+            <button><i class="far fa-heart"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="meal-info">
+      <h1>Hi i am meal info</h1>
+    </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/8.7.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/8.7.1/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+    <script src="script.js"></script>
+  </body>
+
+</html>n
